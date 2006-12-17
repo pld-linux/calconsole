@@ -1,0 +1,12 @@
+diff -urN calconsole-0.3.orig/src/Makefile.in calconsole-0.3/src/Makefile.in
+--- calconsole-0.3.orig/src/Makefile.in	2006-05-17 18:33:14.000000000 +0200
++++ calconsole-0.3/src/Makefile.in	2006-12-17 12:19:29.467390256 +0100
+@@ -365,7 +365,7 @@
+ 	$(LN_S) calconsole ncalconsole
+ 
+ install:
+-	$(LN_S) $(bindir)/calconsole $(bindir)/ncalconsole
++	$(LN_S) $(bindir)/calconsole $(DESTDIR)$(bindir)/ncalconsole
+ 
+ uninstall:
+ 	rm -f $(bindir)/calconsole $(bindir)/ncalconsole

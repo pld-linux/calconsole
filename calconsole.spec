@@ -1,6 +1,5 @@
-#
-Summary:	Calconsole is a calendar and schedule in mode command line
-Summary(pl):	Calconsole jest kalendarzem i harmonogramem zadañ z linii poleceñ
+Summary:	Calconsole - a calendar and schedule in mode command line
+Summary(pl):	Calconsole - kalendarz i harmonogram zadañ obs³ugiwany z linii poleceñ
 Name:		calconsole
 Version:	0.3
 Release:	1
@@ -17,9 +16,9 @@ Calconsole is a calendar and schedule in mode command line. Like a cal
 with schedule. Calconsole works with files ics.
 
 %description -l pl
-Calconsole jest kalendarzem i harmonogramem zadañ z linii poleceñ.
-Podobnie jak komenda cal, ale z harmonogramem zadañ. Calconsole
-pracuje z plikami ics.
+Calconsole jest kalendarzem i harmonogramem zadañ obs³ugiwanym z linii
+poleceñ. Jest podobny do polecenia cal, ale zawiera harmonogram zadañ.
+Calconsole wspó³pracuje z plikami ics.
 
 %prep
 %setup -q

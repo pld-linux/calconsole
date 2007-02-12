@@ -1,5 +1,5 @@
 Summary:	Calconsole - a calendar and schedule in mode command line
-Summary(pl.UTF-8):   Calconsole - kalendarz i harmonogram zadań obsługiwany z linii poleceń
+Summary(pl.UTF-8):	Calconsole - kalendarz i harmonogram zadań obsługiwany z linii poleceń
 Name:		calconsole
 Version:	0.3
 Release:	1

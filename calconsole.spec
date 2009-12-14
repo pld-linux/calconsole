@@ -41,7 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README AUTHORS NEWS ChangeLog README
+%doc README AUTHORS NEWS ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/zoneinfo/*/*.ics
 %{_datadir}/zoneinfo/*/*/*.ics
